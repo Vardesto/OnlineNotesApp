@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "686047105708",
+    "firebase_url": "https://onlinenotesapp-dbeab-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "onlinenotesapp-dbeab",
+    "storage_bucket": "onlinenotesapp-dbeab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686047105708:android:7873de76748f35392b8509",
+        "android_client_info": {
+          "package_name": "com.example.onlinenotesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686047105708-r4ghu868s1g34u8om0c028e4fgf6ks18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlinenotesapp",
+            "certificate_hash": "6b211f761bb3fec983706d53dad20620621b621a"
+          }
+        },
+        {
+          "client_id": "686047105708-ifc0ued61d7ihark82f0n623j3sltij9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0i1HcGBOBOLYkbdcjvtxpj5DhC-gx3Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686047105708-ifc0ued61d7ihark82f0n623j3sltij9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
