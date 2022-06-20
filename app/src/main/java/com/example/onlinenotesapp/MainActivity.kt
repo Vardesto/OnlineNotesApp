@@ -10,6 +10,9 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.compose.rememberNavController
+import com.example.onlinenotesapp.presentation.screens.listscreen.ListScreen
+import com.example.onlinenotesapp.presentation.navigation.Navigation
 import com.example.onlinenotesapp.presentation.ui.theme.OnlineNotesAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,22 +25,9 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    Navigation(rememberNavController())
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    OnlineNotesAppTheme {
-        Greeting("Android")
     }
 }

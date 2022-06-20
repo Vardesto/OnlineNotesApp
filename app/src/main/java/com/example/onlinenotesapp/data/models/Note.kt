@@ -1,9 +1,10 @@
 package com.example.onlinenotesapp.data.models
 
-import java.util.*
+import java.io.Serializable
 
 data class Note(
-    var title: String?,
-    var text: String?,
-    val creationDate: Date,
-    val modificationDate: Date)
+    val id: String = "",
+    var title: String = "",
+    var text: String = "",
+    val creationDate: String = "",
+    val modificationDate: String = ""): Serializable
